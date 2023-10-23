@@ -42,6 +42,14 @@ namespace MedFarmApi.Features.Product
             return Ok(product);
         }
 
+        [HttpGet("byCategory/{id}")]
+        public async Task<IActionResult> GetProductByCategoryId([FromRoute] int id)
+        {
+            var product = await databaseContext.Products.Include(product => product.Category).Where(p => p.CategoryId == id).ToListAsync();
+            if (product == null) return NotFound();
+            return Ok(product);
+        }
+
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProduct([FromRoute] int id, [FromBody] Products newProduct)
         {
