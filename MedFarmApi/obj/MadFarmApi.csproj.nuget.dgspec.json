@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\MedFarmApi.csproj": {}
+    "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\MadFarmApi.csproj": {}
   },
   "projects": {
-    "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\MedFarmApi.csproj": {
+    "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\MadFarmApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\MedFarmApi.csproj",
-        "projectName": "MedFarmApi",
-        "projectPath": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\MedFarmApi.csproj",
+        "projectUniqueName": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\MadFarmApi.csproj",
+        "projectName": "MadFarmApi",
+        "projectPath": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\MadFarmApi.csproj",
         "packagesPath": "C:\\Users\\Jeet\\.nuget\\packages\\",
         "outputPath": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\obj\\",
         "projectStyle": "PackageReference",
