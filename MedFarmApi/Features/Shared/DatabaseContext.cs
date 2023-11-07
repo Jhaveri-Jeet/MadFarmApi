@@ -2,6 +2,7 @@
 using MedFarmApi.Features.Category;
 using Microsoft.EntityFrameworkCore;
 using MedFarmApi.Features.Product;
+using MadFarmApi.Features.User;
 
 namespace MedFarmApi.Features.Shared
 {
@@ -13,11 +14,10 @@ namespace MedFarmApi.Features.Shared
         public DatabaseContext(DbContextOptions options) : base(options)
         {
         }
-
         public virtual DbSet<Cattles> Cattles { get; set; }
         public virtual DbSet<Categories> Categories { get; set; }
-
         public virtual DbSet<Products> Products { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
     }
 

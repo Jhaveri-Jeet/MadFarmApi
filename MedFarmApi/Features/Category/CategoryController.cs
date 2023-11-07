@@ -16,6 +16,7 @@ namespace MedFarmApi.Features.Category
         }
 
         [HttpPost]
+
         public async Task<IActionResult> AddCategory([FromBody] Categories category)
         {
             await databaseContext.AddAsync(category);

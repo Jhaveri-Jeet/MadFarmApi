@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "u0DGKwrUYyT7CLwFdMLsUjnK5Gp+8GEgc5Cc0cDBQAU=",
+  "Hash": "n1ZDC1bWcj67lYeBBxMlDb5iuRTc6NPEjvAub4ImweA=",
   "Source": "MadFarmApi",
   "BasePath": "_content/MadFarmApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MadFarmApi\\wwwroot",
+      "Source": "MadFarmApi",
+      "ContentRoot": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\wwwroot\\",
+      "BasePath": "_content/MadFarmApi",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
