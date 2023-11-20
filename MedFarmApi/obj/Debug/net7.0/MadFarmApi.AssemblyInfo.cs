@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MadFarmApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15cda83ce7b79172cbf8ac7b6f3ad9ed01ee0bc5")]
 [assembly: System.Reflection.AssemblyProductAttribute("MadFarmApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MadFarmApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

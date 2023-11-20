@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n1ZDC1bWcj67lYeBBxMlDb5iuRTc6NPEjvAub4ImweA=",
+  "Hash": "SHWnXvIQXbmwWwLqcfpSE09s3aU6I7NksdAQxWtIrGs=",
   "Source": "MadFarmApi",
   "BasePath": "_content/MadFarmApi",
   "Mode": "Default",
@@ -15,5 +15,63 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\wwwroot\\uploads\\About.js",
+      "SourceId": "MadFarmApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\wwwroot\\",
+      "BasePath": "_content/MadFarmApi",
+      "RelativePath": "uploads/About.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\About.js"
+    },
+    {
+      "Identity": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\wwwroot\\uploads\\Banner.js",
+      "SourceId": "MadFarmApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\wwwroot\\",
+      "BasePath": "_content/MadFarmApi",
+      "RelativePath": "uploads/Banner.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Banner.js"
+    },
+    {
+      "Identity": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\wwwroot\\uploads\\victory_logo.jpg",
+      "SourceId": "MadFarmApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\wwwroot\\",
+      "BasePath": "_content/MadFarmApi",
+      "RelativePath": "uploads/victory_logo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\victory_logo.jpg"
+    }
+  ]
 }

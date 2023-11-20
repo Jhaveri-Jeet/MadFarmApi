@@ -15,19 +15,19 @@ namespace MedFarmApi.Features.Product
             this.databaseContext = databaseContext;
         }
 
-        [HttpPost, DisableRequestSizeLimit]
-        public async Task<IActionResult> AddProduct([FromBody] Products product)
+        [HttpPost]
+        public async Task<IActionResult> AddProduct([FromForm] Products product, [FromForm] IFormFile file)
         {
             var category = await databaseContext.Categories.FirstOrDefaultAsync(c => c.Id == product.CategoryId);
             if (category == null) return NotFound();
 
-            //string filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\uploads", file.FileName);
-
-            //FileStream fileStream = System.IO.File.Create(filePath);
-            //await file.CopyToAsync(fileStream);
-            //fileStream.Close();
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\uploads", file.FileName);
+            FileStream fileStream = System.IO.File.Create(filePath);
+            await file.CopyToAsync(fileStream);
+            fileStream.Close();
 
             product.CategoryId = category.Id;
+            product.ImageName = file.FileName;
             await databaseContext.AddAsync(product);
             await databaseContext.SaveChangesAsync();
             return Ok("Product Added !");

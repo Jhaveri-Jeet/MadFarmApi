@@ -23,6 +23,7 @@ app.UseCors(x => x
     .AllowAnyMethod()
     .AllowAnyHeader());
 
+app.UseStaticFiles();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

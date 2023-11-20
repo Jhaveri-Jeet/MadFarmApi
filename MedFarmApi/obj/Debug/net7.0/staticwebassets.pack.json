@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\wwwroot\\uploads\\About.js",
+      "PackagePath": "staticwebassets\\uploads\\About.js"
+    },
+    {
+      "Id": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\wwwroot\\uploads\\Banner.js",
+      "PackagePath": "staticwebassets\\uploads\\Banner.js"
+    },
+    {
+      "Id": "D:\\Jeet Jhaveri\\Projects\\.Net\\MedFarmApi\\MedFarmApi\\wwwroot\\uploads\\victory_logo.jpg",
+      "PackagePath": "staticwebassets\\uploads\\victory_logo.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MadFarmApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MadFarmApi.props",
+      "PackagePath": "build\\MadFarmApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MadFarmApi.props",
+      "PackagePath": "buildMultiTargeting\\MadFarmApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MadFarmApi.props",
+      "PackagePath": "buildTransitive\\MadFarmApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
